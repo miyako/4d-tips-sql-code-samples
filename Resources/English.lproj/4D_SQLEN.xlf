@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--                                                   
+			Translation file for 4D products.
+			Copyright (c) 4D SA, 1985-2006. All right reserved.
+			This file is distributed under the same license as the 4D product package.
+
+<!DOCTYPE  xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+-->
+
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "file:///xliff.dtd">
+
+<xliff version="1.0">
+   <file build-num="9.0" datatype="x-STR#" date="2006-04-20T12:13:41Z" original="4th Dimension" product-name="4th Dimension" product-version="2007" source-language="en-US" target-language="en">
+      <header>
+         <prop-group name="Xliff-Editor.4dbase">
+            <prop prop-type="version">1.0</prop>
+            <prop prop-type="separator">_</prop>
+         </prop-group>
+      </header>
+      <body>
+         <group resname="Main_RadioButtons">
+            <trans-unit id="62" resname="Main_Using4DCode">
+               <source>Using 4D code</source>
+               <target>Using 4D code</target>
+            </trans-unit>
+            <trans-unit id="63" resname="Main_UsingSQLCode">
+               <source>Using SQL code</source>
+               <target>Using SQL code</target>
+            </trans-unit>
+            <trans-unit id="64" resname="Main_UsingODBC">
+               <source>Using ODBC</source>
+               <target>Using ODBC</target>
+            </trans-unit>
+            <trans-unit id="65" resname="Main_UsingQueryBySQL">
+               <source>Using &quot;Query by SQL&quot;</source>
+               <target>Using &quot;Query by SQL&quot;</target>
+            </trans-unit>
+            <trans-unit id="66" resname="Main_UsingDynamicSQL">
+               <source>Using Dynamic SQL</source>
+               <target>Using Dynamic SQL</target>
+            </trans-unit>
+            <trans-unit id="67" resname="Main_Trace">
+               <source>Trace the code</source>
+               <target>Trace the code</target>
+            </trans-unit>
+         </group>
+         <group resname="Menu">
+            <trans-unit id="68" resname="Menu_DemoSQL">
+               <source>Demo SQL</source>
+               <target>Demo SQL</target>
+            </trans-unit>
+            <trans-unit id="72" resname="Menu_ShowSamples">
+               <source>Show Sampples…</source>
+               <target>Show Sampples…</target>
+            </trans-unit>
+         </group>
+         <group resname="Main_Labels">
+            <trans-unit id="73" resname="Main_QueryMode">
+               <source>Query Mode</source>
+               <target>Query Mode</target>
+            </trans-unit>
+            <trans-unit id="74" resname="Main_Queries">
+               <source>Queries</source>
+               <target>Queries</target>
+            </trans-unit>
+            <trans-unit id="75" resname="Main_ErrorTracking">
+               <source>Error tracking</source>
+               <target>Error tracking</target>
+            </trans-unit>
+            <trans-unit id="76" resname="Main_DataDéfinitionLanguage">
+               <source>Data Definition Language</source>
+               <target>Data Definition Language</target>
+            </trans-unit>
+            <trans-unit id="77" resname="Main_ExternalConnections">
+               <source>External connections</source>
+               <target>External connections</target>
+            </trans-unit>
+            <trans-unit id="78" resname="Main_Listbox">
+               <source>Listbox</source>
+               <target>Listbox</target>
+            </trans-unit>
+            <trans-unit id="79" resname="Main_GroupOfArrays">
+               <source>Group of arrays</source>
+               <target>Group of arrays</target>
+            </trans-unit>
+         </group>
+         <group resname="Main_FieldLabels">
+            <trans-unit id="80" resname="Main_Years">
+               <source>Years</source>
+               <target>Years</target>
+            </trans-unit>
+            <trans-unit id="81" resname="Main_Titles">
+               <source>Titles</source>
+               <target>Titles</target>
+            </trans-unit>
+            <trans-unit id="82" resname="Main_Directors">
+               <source>Directors</source>
+               <target>Directors</target>
+            </trans-unit>
+            <trans-unit id="83" resname="Main_Media">
+               <source>Media</source>
+               <target>Media</target>
+            </trans-unit>
+            <trans-unit id="84" resname="Main_TicketsSold">
+               <source>Tickets Sold</source>
+               <target>Tickets Sold</target>
+            </trans-unit>
+            <trans-unit id="85" resname="Main_NumberOfActors">
+               <source>Number of actors</source>
+               <target>Number of actors</target>
+            </trans-unit>
+         </group>
+         <group resname="Main_ArrayNames">
+            <trans-unit id="86" resname="Main_Years_1">
+               <source>Years
+(aMovieYear)</source>
+               <target>Years
+(aMovieYear)</target>
+            </trans-unit>
+            <trans-unit id="87" resname="Main_Titles_2">
+               <source>Titles
+(aTitles)</source>
+               <target>Titles
+(aTitles)</target>
+            </trans-unit>
+            <trans-unit id="88" resname="Main_Directors_3">
+               <source>Directors
+(aDirectors)</source>
+               <target>Directors
+(aDirectors)</target>
+            </trans-unit>
+            <trans-unit id="89" resname="Main_Media_4">
+               <source>Media
+(aMedia)</source>
+               <target>Media
+(aMedia)</target>
+            </trans-unit>
+            <trans-unit id="90" resname="Main_TicketsSold_5">
+               <source>Tickets Sold
+(aSoldTickets)</source>
+               <target>Tickets Sold
+(aSoldTickets)</target>
+            </trans-unit>
+            <trans-unit id="91" resname="Main_NumberOfActors_6">
+               <source>Number of actors
+(aNrActors)</source>
+               <target>Number of actors
+(aNrActors)</target>
+            </trans-unit>
+         </group>
+         <group resname="Main_Buttons">
+            <trans-unit id="27" resname="Main_SQLQueryResultsInVariables">
+               <source>SQL query results in variables</source>
+               <target>SQL query results in variables</target>
+            </trans-unit>
+            <trans-unit id="28" resname="Main_WHEREClause">
+               <source>WHERE clause</source>
+               <target>WHERE clause</target>
+            </trans-unit>
+            <trans-unit id="29" resname="Main_SQLQueryResultsInArrays">
+               <source>SQL query results in arrays</source>
+               <target>SQL query results in arrays</target>
+            </trans-unit>
+            <trans-unit id="30" resname="Main_UsingCAST">
+               <source>Using CAST</source>
+               <target>Using CAST</target>
+            </trans-unit>
+            <trans-unit id="31" resname="Main_ORDERBYClause">
+               <source>ORDER BY clause</source>
+               <target>ORDER BY clause</target>
+            </trans-unit>
+            <trans-unit id="32" resname="Main_GROUPBYClause">
+               <source>GROUP BY clause</source>
+               <target>GROUP BY clause</target>
+            </trans-unit>
+            <trans-unit id="33" resname="Main_UsingStatisticalFunctions">
+               <source>Using Statistical functions</source>
+               <target>Using Statistical functions</target>
+            </trans-unit>
+            <trans-unit id="34" resname="Main_HAVINGClause">
+               <source>HAVING clause</source>
+               <target>HAVING clause</target>
+            </trans-unit>
+            <trans-unit id="35" resname="Main_Calling4DMethods">
+               <source>Calling 4D methods</source>
+               <target>Calling 4D methods</target>
+            </trans-unit>
+            <trans-unit id="36" resname="Main_Joins">
+               <source>Joins</source>
+               <target>Joins</target>
+            </trans-unit>
+            <trans-unit id="37" resname="Main_UsingAliases">
+               <source>Using Aliases</source>
+               <target>Using Aliases</target>
+            </trans-unit>
+            <trans-unit id="38" resname="Main_Subqueries">
+               <source>Subqueries</source>
+               <target>Subqueries</target>
+            </trans-unit>
+            <trans-unit id="39" resname="Main_DebuggingSQLCode">
+               <source>Debugging SQL code</source>
+               <target>Debugging SQL code</target>
+            </trans-unit>
+            <trans-unit id="40" resname="Main_UsingONERRCALL">
+               <source>Using ON ERR CALL</source>
+               <target>Using ON ERR CALL</target>
+            </trans-unit>
+            <trans-unit id="41" resname="Main_ConnectToORACLE">
+               <source>Connect to ORACLE</source>
+               <target>Connect to ORACLE</target>
+            </trans-unit>
+            <trans-unit id="42" resname="Main_ConnectTo4D">
+               <source>Connect to 4D</source>
+               <target>Connect to 4D</target>
+            </trans-unit>
+         </group>
+         <group resname="Main_Alerts">
+            <trans-unit id="43" resname="Main_Alerts_TheMoviesTableContains1Movies">
+               <source>The &apos;movies&apos; table contains &lt;1> movies.</source>
+               <target>The &apos;movies&apos; table contains &lt;1> movies.</target>
+            </trans-unit>
+            <trans-unit id="44" resname="Main_Alerts_TheMoviesTableContains1MoviesReleased">
+               <source>The &apos;movies&apos; table contains &lt;1> movies released in 1960 of after.</source>
+               <target>The &apos;movies&apos; table contains &lt;1> movies released in 1960 of after.</target>
+            </trans-unit>
+            <trans-unit id="45" resname="Main_Alerts_TicketsSold">
+               <source>Tickets sold:
+
+Minimum: &lt;1>
+Maximum: &lt;2>
+Average: &lt;3>
+Total: &lt;4></source>
+               <target>Tickets sold:
+
+Minimum: &lt;1>
+Maximum: &lt;2>
+Average: &lt;3>
+Total: &lt;4></target>
+            </trans-unit>
+            <trans-unit id="46" resname="Main_Alerts_NotApplicable">
+               <source>Not applicable</source>
+               <target>Not applicable</target>
+            </trans-unit>
+         </group>
+      </body>
+   </file>
+</xliff>

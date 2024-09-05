@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">-->
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN"
+"http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+   <file build-num="9.0" datatype="x-STR#" date="2006-04-20T12:13:41Z" original="4th Dimension" product-name="4th Dimension" product-version="2007" source-language="en-US" target-language="en-US">
+      <body>
+         <group id="15998" resname="Menus_file">
+            <trans-unit id="1" resname="menu_file">
+               <source>File</source>
+               <target>File</target>
+            </trans-unit>
+            <trans-unit id="2" resname="menu_new">
+               <source>New</source>
+               <target>New</target>
+            </trans-unit>
+            <trans-unit id="3" resname="menu_save">
+               <source>Save</source>
+               <target>Save</target>
+            </trans-unit>
+            <trans-unit id="4" resname="menu_saveAll">
+               <source>Save all</source>
+               <target>Save all</target>
+            </trans-unit>
+            <trans-unit id="5" resname="menu_saveAs">
+               <source>Save as…</source>
+               <target>Save as…</target>
+            </trans-unit>
+            <trans-unit id="6" resname="menu_open">
+               <source>Open…</source>
+               <target>Open…</target>
+            </trans-unit>
+            <trans-unit id="7" resname="menu_revert">
+               <source>Revert to saved…</source>
+               <target>Revert to saved…</target>
+            </trans-unit>
+            <trans-unit id="8" resname="menu_quit">
+               <source>Quit</source>
+               <target>Quit</target>
+            </trans-unit>
+            <trans-unit id="9" resname="menu_infos">
+               <source>Informations…</source>
+               <target>Informations…</target>
+            </trans-unit>
+            <trans-unit id="10" resname="menu_preferences">
+               <source>Preferences…</source>
+               <target>Preferences…</target>
+            </trans-unit>
+            <trans-unit id="204" resname="Menu_CloseWindow">
+               <source>Close Window</source>
+               <target>Close Window</target>
+            </trans-unit>
+         </group>
+         <group id="15997" resname="Menus_edit">
+            <trans-unit id="1" resname="menu_edit">
+               <source>Edit</source>
+               <target>Edit</target>
+            </trans-unit>
+            <trans-unit id="2" resname="menu_undo">
+               <source>Undo</source>
+               <target>Undo</target>
+            </trans-unit>
+            <trans-unit id="3" resname="menu_redo">
+               <source>Redo</source>
+               <target>Redo</target>
+            </trans-unit>
+            <trans-unit id="4" resname="menu_cut">
+               <source>Cut</source>
+               <target>Cut</target>
+            </trans-unit>
+            <trans-unit id="5" resname="menu_copy">
+               <source>Copy</source>
+               <target>Copy</target>
+            </trans-unit>
+            <trans-unit id="6" resname="menu_paste">
+               <source>Paste</source>
+               <target>Paste</target>
+            </trans-unit>
+            <trans-unit id="7" resname="menu_clear">
+               <source>Clear</source>
+               <target>Clear</target>
+            </trans-unit>
+            <trans-unit id="8" resname="menu_selectAll">
+               <source>Select all</source>
+               <target>Select all</target>
+            </trans-unit>
+            <trans-unit id="9" resname="menu_find">
+               <source>Find…</source>
+               <target>Find…</target>
+            </trans-unit>
+            <trans-unit id="10" resname="menu_replace">
+               <source>Replace…</source>
+               <target>Replace…</target>
+            </trans-unit>
+            <trans-unit id="11" resname="menu_findAgain">
+               <source>Find next</source>
+               <target>Find next</target>
+            </trans-unit>
+            <trans-unit id="12" resname="menu_replaceAgain">
+               <source>Replace next</source>
+               <target>Replace next</target>
+            </trans-unit>
+            <trans-unit id="13" resname="menu_showClipboard">
+               <source>Show clipboard</source>
+               <target>Show clipboard</target>
+            </trans-unit>
+         </group>
+         <group id="15996" resname="Menus_mode">
+            <trans-unit id="1" resname="menu_mode">
+               <source>Mode</source>
+               <target>Mode</target>
+            </trans-unit>
+            <trans-unit id="205" resname="Menu_ReturnToDesignMode">
+               <source>Return to Design mode</source>
+               <target>Return to Design mode</target>
+            </trans-unit>
+         </group>
+         <group id="15995" resname="Buttons">
+            <trans-unit id="1" resname="btn_ok">
+               <source>OK</source>
+               <target>OK</target>
+            </trans-unit>
+            <trans-unit id="2" resname="btn_cancel">
+               <source>Cancel</source>
+               <target>Cancel</target>
+            </trans-unit>
+            <trans-unit id="3" resname="btn_accept">
+               <source>Validate</source>
+               <target>Validate</target>
+            </trans-unit>
+            <trans-unit id="4" resname="btn_add">
+               <source>Add</source>
+               <target>Add</target>
+            </trans-unit>
+            <trans-unit id="5" resname="btn_delete">
+               <source>Delete</source>
+               <target>Delete</target>
+            </trans-unit>
+            <trans-unit id="6" resname="btn_showAll">
+               <source>Show all</source>
+               <target>Show all</target>
+            </trans-unit>
+            <trans-unit id="7" resname="btn_showSubset">
+               <source>Show subset</source>
+               <target>Show subset</target>
+            </trans-unit>
+            <trans-unit id="8" resname="btn_query">
+               <source>Query</source>
+               <target>Query</target>
+            </trans-unit>
+            <trans-unit id="9" resname="btn_orderBy">
+               <source>Order by</source>
+               <target>Order by</target>
+            </trans-unit>
+            <trans-unit id="10" resname="btn_quickReport">
+               <source>Quick reports</source>
+               <target>Quick reports</target>
+            </trans-unit>
+            <trans-unit id="11" resname="btn_printLabels">
+               <source>Print labels</source>
+               <target>Print labels</target>
+            </trans-unit>
+            <trans-unit id="12" resname="btn_print">
+               <source>Print</source>
+               <target>Print</target>
+            </trans-unit>
+            <trans-unit id="13" resname="btn_finish">
+               <source>Finish</source>
+               <target>Finish</target>
+            </trans-unit>
+            <trans-unit id="14" resname="btn_first">
+               <source>First</source>
+               <target>First</target>
+            </trans-unit>
+            <trans-unit id="15" resname="btn_previous">
+               <source>Previous</source>
+               <target>Previous</target>
+            </trans-unit>
+            <trans-unit id="16" resname="btn_next">
+               <source>Next</source>
+               <target>Next</target>
+            </trans-unit>
+            <trans-unit id="17" resname="btn_last">
+               <source>Last</source>
+               <target>Last</target>
+            </trans-unit>
+         </group>
+      </body>
+   </file>
+</xliff>

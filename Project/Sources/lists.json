@@ -1,0 +1,240 @@
+{
+	"me_lh_liste1": {
+		"items": [
+			{
+				"text": "ACTORS",
+				"ref": 14,
+				"editable": true,
+				"collapsed": true,
+				"subTree": {
+					"items": [
+						{
+							"text": "Birth_Town_ID",
+							"ref": 19,
+							"editable": true,
+							"collapsed": true,
+							"fontWeight": "bold"
+						},
+						{
+							"text": "Comments",
+							"ref": 18,
+							"editable": true,
+							"collapsed": true
+						},
+						{
+							"text": "FirstName",
+							"ref": 17,
+							"editable": true,
+							"collapsed": true
+						},
+						{
+							"text": "ID",
+							"ref": 15,
+							"editable": true,
+							"collapsed": true,
+							"fontWeight": "bold"
+						},
+						{
+							"text": "LastName",
+							"ref": 16,
+							"editable": true,
+							"collapsed": true
+						}
+					]
+				}
+			},
+			{
+				"text": "INTERFACE",
+				"ref": 23,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "MOVIE_ACTOR",
+				"ref": 20,
+				"editable": true,
+				"collapsed": true,
+				"subTree": {
+					"items": [
+						{
+							"text": "Actor_ID",
+							"ref": 22,
+							"editable": true,
+							"collapsed": true,
+							"fontWeight": "bold"
+						},
+						{
+							"text": "Movie_ID",
+							"ref": 21,
+							"editable": true,
+							"collapsed": true,
+							"fontWeight": "bold"
+						}
+					]
+				}
+			},
+			{
+				"text": "MOVIES",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true,
+				"subTree": {
+					"items": [
+						{
+							"text": "BlackAndWhite",
+							"ref": 36,
+							"editable": true,
+							"collapsed": true
+						},
+						{
+							"text": "Blog_on_movie",
+							"ref": 37,
+							"editable": true,
+							"collapsed": true
+						},
+						{
+							"text": "Category",
+							"ref": 30,
+							"editable": true,
+							"collapsed": true
+						},
+						{
+							"text": "Director",
+							"ref": 29,
+							"editable": true,
+							"collapsed": true
+						},
+						{
+							"text": "ID",
+							"ref": 27,
+							"editable": true,
+							"collapsed": true,
+							"fontWeight": "bold"
+						},
+						{
+							"text": "Media",
+							"ref": 35,
+							"editable": true,
+							"collapsed": true
+						},
+						{
+							"text": "Poster",
+							"ref": 34,
+							"editable": true,
+							"collapsed": true
+						},
+						{
+							"text": "Sold_Tickets",
+							"ref": 38,
+							"editable": true,
+							"collapsed": true
+						},
+						{
+							"text": "Subtitles",
+							"ref": 32,
+							"editable": true,
+							"collapsed": true
+						},
+						{
+							"text": "Summary",
+							"ref": 33,
+							"editable": true,
+							"collapsed": true
+						},
+						{
+							"text": "Title",
+							"ref": 28,
+							"editable": true,
+							"collapsed": true
+						},
+						{
+							"text": "Year_of_Movie",
+							"ref": 31,
+							"editable": true,
+							"collapsed": true
+						}
+					]
+				}
+			},
+			{
+				"text": "TOWNS",
+				"ref": 24,
+				"editable": true,
+				"collapsed": true,
+				"subTree": {
+					"items": [
+						{
+							"text": "Town_ID",
+							"ref": 25,
+							"editable": true,
+							"collapsed": true,
+							"fontWeight": "bold"
+						},
+						{
+							"text": "Town_Name",
+							"ref": 26,
+							"editable": true,
+							"collapsed": true
+						}
+					]
+				}
+			}
+		]
+	},
+	"Support": {
+		"items": [
+			{
+				"text": "DVD",
+				"ref": 0,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "VHS",
+				"ref": 0,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "VideoCD",
+				"ref": 0,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Laserdisc",
+				"ref": 0,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "DivX",
+				"ref": 0,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"Tab List": {
+		"items": [
+			{
+				"text": "Page 1",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Page 2",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Page 3",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	}
+}

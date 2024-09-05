@@ -1,0 +1,967 @@
+{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"width": 1000,
+	"height": 660,
+	"menuBar": "Main bar",
+	"markerBody": 756,
+	"markerBreak": 756,
+	"markerFooter": 766,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Group Box7": {
+					"type": "groupBox",
+					"top": 130,
+					"left": 770,
+					"width": 210,
+					"height": 100,
+					"class": "Default",
+					"text": ":xliff:Main_ExternalConnections"
+				},
+				"Group Box4": {
+					"type": "groupBox",
+					"top": 10,
+					"left": 770,
+					"width": 210,
+					"height": 100,
+					"class": "Default",
+					"text": ":xliff:Main_ErrorTracking"
+				},
+				"Group Box5": {
+					"type": "groupBox",
+					"top": 10,
+					"left": 260,
+					"width": 490,
+					"height": 220,
+					"class": "Default",
+					"text": ":xliff:Main_Queries"
+				},
+				"Group Box3": {
+					"type": "groupBox",
+					"top": 10,
+					"left": 20,
+					"width": 220,
+					"height": 150,
+					"class": "Default",
+					"text": ":xliff:Main_QueryMode"
+				},
+				"Radio1": {
+					"type": "radio",
+					"top": 30,
+					"left": 39,
+					"width": 197,
+					"height": 16,
+					"dataSource": "Radio1",
+					"text": ":xliff:Main_Using4DCode",
+					"class": "Little_Buttons",
+					"focusable": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					],
+					"radioGroup": "QueryMode"
+				},
+				"Radio2": {
+					"type": "radio",
+					"top": 50,
+					"left": 39,
+					"width": 197,
+					"height": 16,
+					"dataSource": "Radio2",
+					"text": ":xliff:Main_UsingSQLCode",
+					"class": "Little_Buttons",
+					"focusable": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					],
+					"radioGroup": "QueryMode"
+				},
+				"Radio3": {
+					"type": "radio",
+					"top": 70,
+					"left": 39,
+					"width": 197,
+					"height": 16,
+					"dataSource": "Radio3",
+					"text": ":xliff:Main_UsingODBC",
+					"class": "Little_Buttons",
+					"focusable": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					],
+					"radioGroup": "QueryMode"
+				},
+				"Radio4": {
+					"type": "radio",
+					"top": 90,
+					"left": 39,
+					"width": 197,
+					"height": 16,
+					"dataSource": "Radio4",
+					"text": ":xliff:Main_UsingQueryBySQL",
+					"class": "Little_Buttons",
+					"focusable": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					],
+					"radioGroup": "QueryMode"
+				},
+				"Radio5": {
+					"type": "radio",
+					"top": 110,
+					"left": 39,
+					"width": 197,
+					"height": 16,
+					"dataSource": "Radio5",
+					"text": ":xliff:Main_UsingDynamicSQL",
+					"class": "Little_Buttons",
+					"focusable": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					],
+					"radioGroup": "QueryMode"
+				},
+				"Button30": {
+					"type": "button",
+					"top": 135,
+					"left": 280,
+					"width": 220,
+					"height": 20,
+					"dataSource": "Button6",
+					"text": ":xliff:Main_UsingCAST",
+					"class": "Little_Buttons",
+					"focusable": false,
+					"method": "ObjectMethods/Button30.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Button6": {
+					"type": "button",
+					"top": 165,
+					"left": 280,
+					"width": 220,
+					"height": 20,
+					"dataSource": "Button6",
+					"text": ":xliff:Main_ORDERBYClause",
+					"class": "Little_Buttons",
+					"focusable": false,
+					"method": "ObjectMethods/Button6.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Button11": {
+					"type": "button",
+					"top": 195,
+					"left": 280,
+					"width": 220,
+					"height": 20,
+					"dataSource": "Button6",
+					"text": ":xliff:Main_GROUPBYClause",
+					"class": "Little_Buttons",
+					"focusable": false,
+					"method": "ObjectMethods/Button11.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Button28": {
+					"type": "button",
+					"top": 45,
+					"left": 510,
+					"width": 220,
+					"height": 20,
+					"dataSource": "Button6",
+					"text": ":xliff:Main_UsingStatisticalFunctions",
+					"class": "Little_Buttons",
+					"focusable": false,
+					"method": "ObjectMethods/Button28.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Button3": {
+					"type": "button",
+					"top": 75,
+					"left": 510,
+					"width": 220,
+					"height": 20,
+					"dataSource": "Button6",
+					"text": ":xliff:Main_HAVINGClause",
+					"class": "Little_Buttons",
+					"focusable": false,
+					"method": "ObjectMethods/Button3.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Button25": {
+					"type": "button",
+					"top": 195,
+					"left": 510,
+					"width": 220,
+					"height": 20,
+					"dataSource": "Button6",
+					"text": ":xliff:Main_Subqueries",
+					"class": "Little_Buttons",
+					"focusable": false,
+					"method": "ObjectMethods/Button25.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Button4": {
+					"type": "button",
+					"top": 45,
+					"left": 790,
+					"width": 170,
+					"height": 20,
+					"dataSource": "Button6",
+					"text": ":xliff:Main_DebuggingSQLCode",
+					"class": "Little_Buttons",
+					"focusable": false,
+					"method": "ObjectMethods/Button4.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Button26": {
+					"type": "button",
+					"top": 75,
+					"left": 789,
+					"width": 170,
+					"height": 20,
+					"dataSource": "Button6",
+					"text": ":xliff:Main_UsingONERRCALL",
+					"class": "Little_Buttons",
+					"focusable": false,
+					"method": "ObjectMethods/Button26.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Button31": {
+					"type": "button",
+					"top": 195,
+					"left": 790,
+					"width": 170,
+					"height": 20,
+					"dataSource": "Button6",
+					"text": ":xliff:Main_ConnectTo4D",
+					"class": "Little_Buttons",
+					"focusable": false,
+					"method": "ObjectMethods/Button31.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Button27": {
+					"type": "button",
+					"top": 165,
+					"left": 510,
+					"width": 220,
+					"height": 20,
+					"dataSource": "Button6",
+					"text": ":xliff:Main_UsingAliases",
+					"class": "Little_Buttons",
+					"focusable": false,
+					"method": "ObjectMethods/Button27.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Button22": {
+					"type": "button",
+					"top": 105,
+					"left": 510,
+					"width": 220,
+					"height": 20,
+					"dataSource": "Button6",
+					"text": ":xliff:Main_Calling4DMethods",
+					"class": "Little_Buttons",
+					"focusable": false,
+					"method": "ObjectMethods/Button22.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Button24": {
+					"type": "button",
+					"top": 135,
+					"left": 510,
+					"width": 220,
+					"height": 20,
+					"dataSource": "Button6",
+					"text": ":xliff:Main_Joins",
+					"class": "Little_Buttons",
+					"focusable": false,
+					"method": "ObjectMethods/Button24.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Group Box6": {
+					"type": "groupBox",
+					"top": 165,
+					"left": 20,
+					"width": 220,
+					"height": 65,
+					"class": "Default",
+					"text": ":xliff:Main_DataDéfinitionLanguage"
+				},
+				"Button29": {
+					"type": "button",
+					"top": 165,
+					"left": 790,
+					"width": 170,
+					"height": 20,
+					"dataSource": "Button6",
+					"text": ":xliff:Main_ConnectToORACLE",
+					"class": "Little_Buttons",
+					"focusable": false,
+					"method": "ObjectMethods/Button29.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Button23": {
+					"type": "button",
+					"top": 195,
+					"left": 39,
+					"width": 180,
+					"height": 20,
+					"dataSource": "Button6",
+					"text": "DDL",
+					"class": "Little_Buttons",
+					"focusable": false,
+					"method": "ObjectMethods/Button23.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Group Box1": {
+					"type": "groupBox",
+					"top": 250,
+					"left": 20,
+					"width": 960,
+					"height": 180,
+					"class": "Default",
+					"text": ":xliff:Main_Listbox"
+				},
+				"Group Box2": {
+					"type": "groupBox",
+					"top": 440,
+					"left": 20,
+					"width": 960,
+					"height": 200,
+					"class": "Default",
+					"text": ":xliff:Main_GroupOfArrays"
+				},
+				"List Box1": {
+					"type": "listbox",
+					"top": 290,
+					"left": 40,
+					"width": 920,
+					"height": 121,
+					"resizingMode": "legacy",
+					"dataSource": "List Box1",
+					"hideFocusRing": true,
+					"rowHeight": "15px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "automatic",
+					"stroke": "#000000",
+					"fill": "automatic",
+					"textAlign": "left",
+					"class": "Plain_style",
+					"alternateFill": "automaticAlternate",
+					"columns": [
+						{
+							"name": "Column2",
+							"dataSource": "aMovieYear",
+							"dataSourceTypeHint": "number",
+							"width": 80,
+							"minWidth": 80,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"alternateFill": "#FFFFFF",
+							"textAlign": "center",
+							"verticalAlign": "automatic",
+							"class": "Plain_style",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header2",
+								"text": ":xliff:Main_Years",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "center",
+								"verticalAlign": "automatic",
+								"class": "Little_Buttons"
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "left",
+								"verticalAlign": "automatic",
+								"class": "Plain_style"
+							}
+						},
+						{
+							"name": "Column3",
+							"dataSource": "aTitles",
+							"width": 320,
+							"minWidth": 240,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"alternateFill": "#FFFFFF",
+							"textAlign": "left",
+							"verticalAlign": "automatic",
+							"class": "Plain_style",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header3",
+								"text": ":xliff:Main_Titles",
+								"dataSource": "Header2",
+								"stroke": "#000000",
+								"textAlign": "center",
+								"verticalAlign": "automatic",
+								"class": "Little_Buttons"
+							},
+							"footer": {
+								"name": "Footer2",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "left",
+								"verticalAlign": "automatic",
+								"class": "Plain_style"
+							}
+						},
+						{
+							"name": "Column4",
+							"dataSource": "aDirectors",
+							"width": 160,
+							"minWidth": 160,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"alternateFill": "#FFFFFF",
+							"textAlign": "left",
+							"verticalAlign": "automatic",
+							"class": "Plain_style",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header4",
+								"text": ":xliff:Main_Directors",
+								"dataSource": "Header3",
+								"stroke": "#000000",
+								"textAlign": "center",
+								"verticalAlign": "automatic",
+								"class": "Little_Buttons"
+							},
+							"footer": {
+								"name": "Footer3",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "left",
+								"verticalAlign": "automatic",
+								"class": "Plain_style"
+							}
+						},
+						{
+							"name": "Column1",
+							"dataSource": "aMedias",
+							"width": 120,
+							"minWidth": 120,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"alternateFill": "#FFFFFF",
+							"textAlign": "center",
+							"verticalAlign": "automatic",
+							"class": "Plain_style",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header5",
+								"text": ":xliff:Main_Media",
+								"dataSource": "Header4",
+								"stroke": "#000000",
+								"textAlign": "center",
+								"verticalAlign": "automatic",
+								"class": "Little_Buttons"
+							},
+							"footer": {
+								"name": "Footer4",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "left",
+								"verticalAlign": "automatic",
+								"class": "Plain_style"
+							}
+						},
+						{
+							"name": "aSoldTickets1",
+							"dataSource": "aSoldTickets",
+							"dataSourceTypeHint": "number",
+							"width": 100,
+							"minWidth": 10,
+							"maxWidth": 100,
+							"enterable": false,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"alternateFill": "#FFFFFF",
+							"textAlign": "right",
+							"verticalAlign": "automatic",
+							"class": "Plain_style",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header6",
+								"text": ":xliff:Main_TicketsSold",
+								"dataSource": "Header5",
+								"stroke": "#000000",
+								"textAlign": "center",
+								"verticalAlign": "automatic",
+								"class": "Little_Buttons"
+							},
+							"footer": {
+								"name": "Footer5",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "left",
+								"verticalAlign": "automatic",
+								"class": "Plain_style"
+							}
+						},
+						{
+							"name": "aNrActors1",
+							"dataSource": "aNrActors",
+							"dataSourceTypeHint": "number",
+							"width": 125,
+							"minWidth": 80,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"alternateFill": "#FFFFFF",
+							"textAlign": "right",
+							"verticalAlign": "automatic",
+							"class": "Plain_style",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": ":xliff:Main_NumberOfActors",
+								"dataSource": "Header6",
+								"stroke": "#000000",
+								"textAlign": "center",
+								"verticalAlign": "automatic",
+								"class": "Little_Buttons"
+							},
+							"footer": {
+								"name": "Footer6",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "left",
+								"verticalAlign": "automatic",
+								"class": "Plain_style"
+							}
+						}
+					]
+				},
+				"Text2": {
+					"type": "text",
+					"top": 470,
+					"left": 120,
+					"width": 320,
+					"height": 28,
+					"class": "Little_Buttons",
+					"textAlign": "center",
+					"text": ":xliff:Main_Titles_2"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 470,
+					"left": 440,
+					"width": 160,
+					"height": 28,
+					"class": "Little_Buttons",
+					"textAlign": "center",
+					"text": ":xliff:Main_Directors_3"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 470,
+					"left": 600,
+					"width": 120,
+					"height": 28,
+					"class": "Little_Buttons",
+					"textAlign": "center",
+					"text": ":xliff:Main_Media_4"
+				},
+				"Text5": {
+					"type": "text",
+					"top": 470,
+					"left": 40,
+					"width": 80,
+					"height": 28,
+					"class": "Little_Buttons",
+					"textAlign": "center",
+					"text": ":xliff:Main_Years_1"
+				},
+				"Text11": {
+					"type": "text",
+					"top": 470,
+					"left": 720,
+					"width": 100,
+					"height": 28,
+					"class": "Little_Buttons",
+					"textAlign": "center",
+					"text": ":xliff:Main_TicketsSold_5"
+				},
+				"Text15": {
+					"type": "text",
+					"top": 470,
+					"left": 820,
+					"width": 125,
+					"height": 28,
+					"class": "Little_Buttons",
+					"textAlign": "center",
+					"text": ":xliff:Main_NumberOfActors_6"
+				},
+				"Button5": {
+					"type": "button",
+					"top": 105,
+					"left": 280,
+					"width": 220,
+					"height": 20,
+					"dataSource": "Button5",
+					"text": ":xliff:Main_SQLQueryResultsInArrays",
+					"class": "Little_Buttons",
+					"focusable": false,
+					"method": "ObjectMethods/Button5.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Button7": {
+					"type": "button",
+					"top": 45,
+					"left": 280,
+					"width": 220,
+					"height": 20,
+					"dataSource": "Button1",
+					"text": ":xliff:Main_SQLQueryResultsInVariables",
+					"class": "Little_Buttons",
+					"focusable": false,
+					"method": "ObjectMethods/Button7.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Button2": {
+					"type": "button",
+					"top": 75,
+					"left": 280,
+					"width": 220,
+					"height": 20,
+					"dataSource": "Button1",
+					"text": ":xliff:Main_WHEREClause",
+					"class": "Little_Buttons",
+					"focusable": false,
+					"method": "ObjectMethods/Button2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"bTrace": {
+					"type": "checkbox",
+					"top": 135,
+					"left": 39,
+					"width": 170,
+					"height": 11,
+					"dataSource": "bTrace",
+					"text": ":xliff:Main_Trace",
+					"class": "Little_Buttons",
+					"events": [
+						"onClick"
+					]
+				},
+				"Group19": {
+					"type": "listbox",
+					"left": 39,
+					"top": 508,
+					"width": 920,
+					"height": 110,
+					"events": [
+						"onClick",
+						"onHeaderClick",
+						"onDataChange",
+						"onSelectionChange"
+					],
+					"showHeaders": false,
+					"staticColumnCount": 6,
+					"resizingMode": "legacy",
+					"horizontalLineStroke": "transparent",
+					"scrollbarHorizontal": "hidden",
+					"alternateFill": "automaticAlternate",
+					"columns": [
+						{
+							"header": {
+								"text": "Header1",
+								"name": "Header13"
+							},
+							"name": "Column5",
+							"footer": {
+								"name": "Footer13"
+							},
+							"dataSource": "aMovieYear",
+							"width": 80
+						},
+						{
+							"header": {
+								"name": "Header14",
+								"text": "Header14"
+							},
+							"name": "Column6",
+							"footer": {
+								"name": "Footer14"
+							},
+							"dataSource": "aTitles",
+							"width": 320
+						},
+						{
+							"header": {
+								"name": "Header15",
+								"text": "Header15"
+							},
+							"name": "Column7",
+							"footer": {
+								"name": "Footer15"
+							},
+							"dataSource": "aDirectors",
+							"width": 160
+						},
+						{
+							"header": {
+								"name": "Header16",
+								"text": "Header16"
+							},
+							"name": "Column8",
+							"footer": {
+								"name": "Footer16"
+							},
+							"dataSource": "aMedias",
+							"width": 120
+						},
+						{
+							"header": {
+								"name": "Header17",
+								"text": "Header17"
+							},
+							"name": "Column9",
+							"footer": {
+								"name": "Footer17"
+							},
+							"dataSource": "aSoldTickets",
+							"width": 100
+						},
+						{
+							"header": {
+								"name": "Header18",
+								"text": "Header18"
+							},
+							"name": "Column10",
+							"footer": {
+								"name": "Footer18"
+							},
+							"dataSource": "aNrActors",
+							"width": 100
+						}
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 28,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

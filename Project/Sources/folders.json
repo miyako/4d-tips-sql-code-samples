@@ -1,0 +1,30 @@
+{
+	"Dossier par défaut": {
+		"groups": [
+			"Formulaires par défaut",
+			"Méthodes projet par défaut",
+			"Tables par défaut"
+		]
+	},
+	"Formulaires par défaut": {
+		"forms": [
+			"[MOVIE_ACTOR]Input",
+			"[MOVIE_ACTOR]Output"
+		]
+	},
+	"Méthodes projet par défaut": {
+		"methods": [
+			"Compiler_Arrays_Inter",
+			"Compiler_Variables",
+			"Compiler_Variables_Inter"
+		]
+	},
+	"Tables par défaut": {
+		"tables": [
+			"ACTORS",
+			"MOVIE_ACTOR",
+			"MOVIES"
+		]
+	},
+	"trash": {}
+}

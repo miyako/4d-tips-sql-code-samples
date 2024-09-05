@@ -1,0 +1,98 @@
+{
+	"tables": {
+		"CITIES": {
+			"color": {
+				"red": 0,
+				"green": 0,
+				"blue": 0,
+				"alpha": 0
+			},
+			"coordinates": {
+				"left": 285,
+				"top": 235,
+				"width": 123,
+				"height": 85
+			},
+			"displayable_fields_count": 2,
+			"fields": {
+				"City_Name": {
+					"color": {
+						"red": "255",
+						"green": "255",
+						"blue": "255",
+						"alpha": "0"
+					}
+				}
+			}
+		},
+		"INTERFACE": {
+			"color": {
+				"red": 0,
+				"green": 0,
+				"blue": 0,
+				"alpha": 0
+			},
+			"coordinates": {
+				"left": 816,
+				"top": 0,
+				"width": 127,
+				"height": 63
+			}
+		},
+		"MOVIE_ACTOR": {
+			"color": {
+				"red": 0,
+				"green": 0,
+				"blue": 0,
+				"alpha": 0
+			},
+			"coordinates": {
+				"left": 279,
+				"top": 23,
+				"width": 133,
+				"height": 86
+			},
+			"displayable_fields_count": 2
+		},
+		"ACTORS": {
+			"color": {
+				"red": 0,
+				"green": 0,
+				"blue": 0,
+				"alpha": 0
+			},
+			"coordinates": {
+				"left": 498,
+				"top": 44,
+				"width": 154,
+				"height": 149
+			},
+			"displayable_fields_count": 5
+		},
+		"MOVIES": {
+			"color": {
+				"red": 0,
+				"green": 0,
+				"blue": 0,
+				"alpha": 0
+			},
+			"coordinates": {
+				"left": 59,
+				"top": 23,
+				"width": 138,
+				"height": 295
+			},
+			"displayable_fields_count": 12
+		}
+	},
+	"relations": {
+		"3BB53ACC4A700D4CB6C98AE4CBF9A12D": {
+			"color": {
+				"red": "255",
+				"green": "255",
+				"blue": "255",
+				"alpha": "0"
+			}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+.Bold_style {
+	font-family: Lucida Grande;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.Default {
+	font-family: Lucida Grande;
+	font-size: 13px;
+}
+
+.Little_Buttons {
+	font-family: Lucida Grande;
+	font-size: 11px;
+}
+
+.Plain_style {
+	font-family: Lucida Grande;
+	font-size: 10px;
+}
+

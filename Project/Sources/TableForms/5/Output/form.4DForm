@@ -1,0 +1,188 @@
+{
+	"destination": "listScreen",
+	"rightMargin": 16,
+	"bottomMargin": 10,
+	"markerHeader": 17,
+	"markerBody": 39,
+	"markerBreak": 42,
+	"markerFooter": 42,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Picture3": {
+					"type": "picture",
+					"top": -5,
+					"left": 0,
+					"width": 296,
+					"height": 22,
+					"sizingX": "grow",
+					"pictureFormat": "scaled"
+				},
+				"S1_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 24,
+					"width": 56,
+					"height": 15,
+					"sizingX": "grow",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": "Town_ID : "
+				},
+				"S2_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 112,
+					"width": 168,
+					"height": 15,
+					"sizingX": "grow",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": "Town : "
+				},
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 17,
+					"left": 0,
+					"width": 296,
+					"height": 22,
+					"sizingX": "grow",
+					"stroke": "#FFFFFF"
+				},
+				"S1_Field": {
+					"type": "input",
+					"top": 21,
+					"left": 24,
+					"width": 56,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "[CITIES:5]City_ID:1",
+					"dataSourceTypeHint": "integer",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S2_Field": {
+					"type": "input",
+					"top": 21,
+					"left": 112,
+					"width": 168,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "[CITIES:5]City_Name:2",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Line5": {
+					"type": "line",
+					"top": -5,
+					"left": 0,
+					"height": 44,
+					"stroke": "#A8A8A8"
+				},
+				"Line6": {
+					"type": "line",
+					"top": -5,
+					"left": 296,
+					"height": 44,
+					"sizingX": "move",
+					"stroke": "#A8A8A8"
+				},
+				"Line7": {
+					"type": "line",
+					"top": -5,
+					"left": 96,
+					"height": 44,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter2": {
+					"type": "splitter",
+					"top": -5,
+					"left": 95,
+					"width": 3,
+					"height": 44,
+					"dataSource": "Splitter2",
+					"splitterMode": "move",
+					"borderStyle": "none",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

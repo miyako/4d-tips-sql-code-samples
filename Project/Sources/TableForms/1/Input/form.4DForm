@@ -1,0 +1,647 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 15,
+	"bottomMargin": 0,
+	"markerBody": 604,
+	"markerBreak": 604,
+	"markerFooter": 614,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Text15": {
+					"type": "text",
+					"top": 10,
+					"left": 103,
+					"width": 390,
+					"height": 25,
+					"sizingX": "grow",
+					"stroke": "#000000",
+					"fontFamily": "Helvetica",
+					"fontSize": 18,
+					"text": "MOVIES"
+				},
+				"vRecNum": {
+					"type": "input",
+					"top": 10,
+					"left": 509,
+					"width": 100,
+					"height": 15,
+					"dataSource": "vRecNum",
+					"stroke": "#000000",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"focusable": false,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Record Number"
+					},
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"method": "ObjectMethods/vRecNum.4dm",
+					"events": [
+						"onLoad",
+						"onHeader",
+						"onPrintingBreak"
+					]
+				},
+				"Line16": {
+					"type": "line",
+					"top": 0,
+					"left": 88,
+					"height": 604,
+					"sizingY": "grow"
+				},
+				"bFirst": {
+					"type": "pictureButton",
+					"top": 10,
+					"left": 20,
+					"width": 48,
+					"height": 48,
+					"dataSource": "bFirst",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/First Record"
+					},
+					"action": "firstRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/library/XP First Record.pict",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bPrevious": {
+					"type": "pictureButton",
+					"top": 65,
+					"left": 20,
+					"width": 48,
+					"height": 48,
+					"dataSource": "bPrevious",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Previous Record"
+					},
+					"action": "previousRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/library/XP Previous Record.pict",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bNext": {
+					"type": "pictureButton",
+					"top": 120,
+					"left": 20,
+					"width": 48,
+					"height": 48,
+					"dataSource": "bNext",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Next Record"
+					},
+					"action": "nextRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/library/XP Next Record.pict",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bLast": {
+					"type": "pictureButton",
+					"top": 175,
+					"left": 20,
+					"width": 48,
+					"height": 48,
+					"dataSource": "bLast",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Last Record"
+					},
+					"action": "lastRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/library/XP Last Record.pict",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"Picture17": {
+					"type": "picture",
+					"top": 230,
+					"left": 4,
+					"width": 82,
+					"height": 9,
+					"pictureFormat": "tiled"
+				},
+				"bDelete": {
+					"type": "pictureButton",
+					"top": 246,
+					"left": 20,
+					"width": 48,
+					"height": 48,
+					"dataSource": "bDelete",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Delete Record"
+					},
+					"action": "deleteRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/library/XP Delete Record.pict",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bCancel": {
+					"type": "pictureButton",
+					"top": 301,
+					"left": 20,
+					"width": 48,
+					"height": 48,
+					"dataSource": "bCancel",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Cancel"
+					},
+					"action": "cancel",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/library/XP Cancel.pict",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bValidate": {
+					"type": "pictureButton",
+					"top": 356,
+					"left": 20,
+					"width": 48,
+					"height": 48,
+					"dataSource": "bValidate",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/OK"
+					},
+					"action": "accept",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/library/XP OK.pict",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"Text18": {
+					"type": "text",
+					"top": 45,
+					"left": 115,
+					"width": 97,
+					"height": 15,
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": "ID : "
+				},
+				"Text19": {
+					"type": "text",
+					"top": 69,
+					"left": 115,
+					"width": 97,
+					"height": 15,
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": "Title : "
+				},
+				"Text20": {
+					"type": "text",
+					"top": 93,
+					"left": 115,
+					"width": 97,
+					"height": 15,
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": "Year : "
+				},
+				"Text21": {
+					"type": "text",
+					"top": 117,
+					"left": 115,
+					"width": 97,
+					"height": 15,
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": "BlackAndWhite : "
+				},
+				"Text22": {
+					"type": "text",
+					"top": 142,
+					"left": 115,
+					"width": 97,
+					"height": 15,
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": "Category : "
+				},
+				"Text23": {
+					"type": "text",
+					"top": 166,
+					"left": 115,
+					"width": 97,
+					"height": 15,
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": "Director : "
+				},
+				"Text24": {
+					"type": "text",
+					"top": 190,
+					"left": 115,
+					"width": 97,
+					"height": 15,
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": "Media : "
+				},
+				"Text25": {
+					"type": "text",
+					"top": 214,
+					"left": 115,
+					"width": 97,
+					"height": 15,
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": "Sold_Tickets : "
+				},
+				"Text26": {
+					"type": "text",
+					"top": 238,
+					"left": 115,
+					"width": 97,
+					"height": 15,
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": "Subtitles : "
+				},
+				"Text27": {
+					"type": "text",
+					"top": 263,
+					"left": 115,
+					"width": 97,
+					"height": 15,
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": "Summary : "
+				},
+				"Text28": {
+					"type": "text",
+					"top": 328,
+					"left": 115,
+					"width": 97,
+					"height": 15,
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": "Poster : "
+				},
+				"ID": {
+					"type": "input",
+					"top": 45,
+					"left": 217,
+					"width": 56,
+					"height": 14,
+					"dataSource": "[MOVIES:1]ID:1",
+					"dataSourceTypeHint": "integer",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Title": {
+					"type": "input",
+					"top": 69,
+					"left": 217,
+					"width": 390,
+					"height": 14,
+					"dataSource": "[MOVIES:1]Title:2",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Year": {
+					"type": "input",
+					"top": 93,
+					"left": 217,
+					"width": 49,
+					"height": 14,
+					"dataSource": "[MOVIES:1]Year_of_Movie:5",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"BlackAndWhite": {
+					"type": "checkbox",
+					"top": 117,
+					"left": 217,
+					"width": 60,
+					"height": 16,
+					"dataSource": "[MOVIES:1]BlackAndWhite:10",
+					"text": "Yes",
+					"stroke": "#000000",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Category": {
+					"type": "input",
+					"top": 142,
+					"left": 217,
+					"width": 320,
+					"height": 14,
+					"dataSource": "[MOVIES:1]Category:4",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Director": {
+					"type": "input",
+					"top": 166,
+					"left": 217,
+					"width": 390,
+					"height": 14,
+					"dataSource": "[MOVIES:1]Director:3",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Media": {
+					"type": "input",
+					"top": 190,
+					"left": 217,
+					"width": 160,
+					"height": 14,
+					"dataSource": "[MOVIES:1]Media:9",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Sold_Tickets": {
+					"type": "input",
+					"top": 214,
+					"left": 217,
+					"width": 56,
+					"height": 14,
+					"dataSource": "[MOVIES:1]Sold_Tickets:12",
+					"dataSourceTypeHint": "integer",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Subtitles": {
+					"type": "checkbox",
+					"top": 238,
+					"left": 217,
+					"width": 60,
+					"height": 16,
+					"dataSource": "[MOVIES:1]Subtitles:6",
+					"text": "Yes",
+					"stroke": "#000000",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Summary": {
+					"type": "input",
+					"top": 263,
+					"left": 217,
+					"width": 234,
+					"height": 56,
+					"dataSource": "[MOVIES:1]Summary:7",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"spellcheck": true,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Poster": {
+					"type": "input",
+					"top": 328,
+					"left": 217,
+					"width": 250,
+					"height": 250,
+					"dataSource": "[MOVIES:1]Poster:8",
+					"dataSourceTypeHint": "picture",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {
+				"objects": [
+					"Text15",
+					"vRecNum",
+					"Line16"
+				]
+			},
+			"View 3": {
+				"objects": [
+					"bFirst",
+					"bPrevious",
+					"bNext",
+					"bLast",
+					"Picture17",
+					"bDelete",
+					"bCancel",
+					"bValidate"
+				]
+			},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}
